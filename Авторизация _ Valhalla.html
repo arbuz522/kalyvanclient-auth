@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://valhalla-clxn.tech/page/auth -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Авторизация | Valhalla</title>
+    <script src="./Авторизация _ Valhalla_files/api.js.загрузка" defer=""></script>
+    <link rel="stylesheet" href="./Авторизация _ Valhalla_files/bootstrap.min.css" integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./Авторизация _ Valhalla_files/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="./Авторизация _ Valhalla_files/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Авторизация _ Valhalla_files/all.min.css">
+    <link rel="stylesheet" href="./Авторизация _ Valhalla_files/css2">
+    <link rel="icon" type="image/png" href="https://valhalla-clxn.tech/page/favicon.ico">
+    <link href="./Авторизация _ Valhalla_files/bootstrap(1).min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body style="background-color: rgba(18, 18, 20);">
+    <nav class="navbar navbar-expand-lg navbar-dark block-selection" style="background-color: rgb(27, 27, 30);">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-center navbar-collapse collapse" id="navbar-menu">
+                <a class="navbar-brand logo" href="https://valhalla-clxn.tech/">Valhalla</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="font-family: Montserrat">
+        <br>
+        <div class="row justify-content-center">
+            <div class="adv-cards" style="height: 80vh">
+                <div class="adv-card" style="height: min-content; margin: auto">
+                    <form action="https://valhalla-clxn.tech/page/auth.php" method="POST">
+                        <h3 class="adv-card-title" style="text-align: center;">Авторизация</h3>
+                        <br>
+                        <input class="custom-input" style="width: 100%" type="login" name="login" id="inputLogin" autocomplete="off" placeholder="Логин" required="" autofocus="">
+                        <br><br>
+                        <input class="custom-input" style="width: 100%" type="password" name="password" autocomplete="off" id="inputPassword" placeholder="Пароль" required=""> 
+
+                        <div style="height: min-content; margin: 20px auto 0;" class="cf-turnstile" data-sitekey="0x4AAAAAAA1FiQOjfkc455FZ"><div><template shadowrootmode="closed"><iframe src="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/3ys1m/0x4AAAAAAA1FiQOjfkc455FZ/auto/fbE/new/normal/auto/" allow="cross-origin-isolated; fullscreen; autoplay" sandbox="allow-same-origin allow-scripts allow-popups" id="cf-chl-widget-3ys1m" tabindex="0" title="Виджет с действием &quot;challenge&quot; Cloudflare" style="border: none; overflow: hidden; width: 300px; height: 65px;"></iframe></template><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-3ys1m_response" value="0.-xtghmNDI4TKCckXtF9PuoZ4m5hNtj01v_0We50VguqZGRl0q56jtsyiPHviSeVPgfJx0caDbmGNij-HFNkDGeKuLR4tdBg9fgTXGFPYtR66HbDnpa_k9IJ8FotWR1OwCXagEehry7134or4DXR9CMt02MtTHW35JxPMsMvDp_xirT7_YWByNTFyvNobXUvAa9bfIk-51QqvUNYu65AfX-KBNwBG5WDgFFeWNEXkEjEceXfnkHEcLCfQQyGDD5ZpxJvdusfTiZYTupZJLc1jV0L3AHAYtbBVxnO5bqrbpPByjEUrslzRysJMY4GwsSXS0VSvk6DO-VlghpxWSfdDBcJJgpdyrSPX1N-LSshigEJtsHrKy5JJT4brON78EzFOoFvF4spEJgOMjvrgdC7VzbPtE63kVqhLEmTAm5DDP55jaqgpVXU_KS6_1GVwdq3QYaCVkyeObIlvZPR5m_GEGXMyttbwzICuXlzr8NKdR1eY8ln3EBzRXNF9P1s6C13yv8Und_bT_wxcH-InH9haUOBLgGHfzaO8rLyMsm9FO8na3FuwkaoeNXr07x6ezIKlYpEEptdorI1rwZRCSgGiBGM5uU6Y4pZMdeMNCCSriM-3c8FMGbOtnPpMzIUJ7a3CXmzw61-_4NpKcz3-Z8amNkNmhrgmZR-Q3H7GIGMMnusQx5MfkQ-i0JIL6FKVzqGfyrvxsvuaK_fH3OYDaGvcM_w77eeH3cxWzavOUAKNLWGAdBoZ1ci_fFaxU8X0ycwo3ChTuND9Ip7cNaXLzmFp5EMxsGpTG7rejUi-bWRZVMopQHjc6LPH_8dhvQqE-fJggCz7ARoeacV4IoaL6h5flrbtN249f4ToxbWJmZLIl1Y.W_iu_MXm8kNfO4A-xzibvQ.6951da288762880c5dcb915137acd2c7fd0fd2b5b73bf997ed15d4295b2421b3"></div></div>
+
+                        <div style="text-align: center;">
+                            <p class="text-danger"></p>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px; font-size: 16px; color: #888;">
+                            Нет аккаунта? 
+                            <a href="https://valhalla-clxn.tech/page/register.php" style="color: #F0FFF0; text-decoration: none; font-weight: 600; transition: color 0.3s ease;">
+                                Регистрация
+                            </a>
+                        </p>
+                        
+                        <button type="submit" class="custom-button btn second-color" style="border-color: #F0FFF0; width: 100%;">Авторизоваться</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="font-family: Montserrat; text-align: center;">
+        <a class="text-white" href="https://discord.gg/85kPWkfpAX" target="_blank">
+            <i class="fab fa-discord fa-xl bottom-icon"></i>
+        </a>
+        <p class="text-white">Copyright © Valhalla Client 2025</p>
+    </div>
+    <script src="./Авторизация _ Valhalla_files/jquery-3.2.1.slim.min.js.загрузка" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./Авторизация _ Valhalla_files/popper.min.js.загрузка" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./Авторизация _ Valhalla_files/bootstrap.min.js.загрузка" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body></html>
